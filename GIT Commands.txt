@@ -1,0 +1,12 @@
+
+git intit : Initialise a repository
+
+git add -A :
+
+git commit -m "message body" :
+
+git remote : 
+
+git remote add origin (repolink) : 
+
+git push origin master : 
