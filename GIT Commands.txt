@@ -1,12 +1,13 @@
 
-git intit : Initialise a repository
+git intit : Initialise a repository.
 
-git add -A :
+git add -A : Add file contents to the index.
 
-git commit -m "message body" :
+git commit -m "message body" : Makes a commit, record changes to the repository.
 
-git remote : 
+git remote : Basically a bookmark for a different repository from which you may wish to pull or push code.
 
-git remote add origin (repolink) : 
+git remote add origin (repolink) : Creates a new remote called origin located at git@github.com:arqam/first_app.git. 
+Once you do this, in your push commands, you can push to origin instead of typing out the whole URL.
 
-git push origin master : 
+git push origin master : Push the commits in the local branch named master to the remote named origin.
