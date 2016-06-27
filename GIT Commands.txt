@@ -11,3 +11,5 @@ git remote add origin (repolink) : Creates a new remote called origin located at
 Once you do this, in your push commands, you can push to origin instead of typing out the whole URL.
 
 git push origin master : Push the commits in the local branch named master to the remote named origin.
+
+git pull origin master : Pull the commits made in the github repository to the local host.
