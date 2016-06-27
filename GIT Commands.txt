@@ -13,3 +13,10 @@ Once you do this, in your push commands, you can push to origin instead of typin
 git push origin master : Push the commits in the local branch named master to the remote named origin.
 
 git pull origin master : Pull the commits made in the github repository to the local host.
+
+git clone URL : Clone the forked repository.
+
+git checkout : Switch branches or restore working tree files
+
+git merge branchName  : Join two or more development histories together (branches) [ http://stackoverflow.com/a/16666418/6366458 ]
+Merges branchName with the master branch if present inside master branch.
