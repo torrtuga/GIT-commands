@@ -20,3 +20,22 @@ git checkout : Switch branches or restore working tree files
 
 git merge branchName  : Join two or more development histories together (branches) [ http://stackoverflow.com/a/16666418/6366458 ]
 Merges branchName with the master branch if present inside master branch.
+
+
+--------------------------------------------------------------------------------
+
+git status : status of files in the repository
+
+git log : journal that remembers all the changes we've committed so far, in the order we committed them.
+
+git diff HEAD : Changes in the working tree since your last commit; what you would be committing if you run "git commit -a"
+Also check : git diff commit_id HEAD
+
+git reset HEAD~1 : If you only want the last commit to be removed 
+Also git reset --hard commitID
+[ http://stackoverflow.com/a/2530073/6366458 ]
+
+git checkout branchName : Switch branches or restore working tree files.
+
+git branch branchName : Makes a new branch
+
