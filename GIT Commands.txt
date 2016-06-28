@@ -1,5 +1,5 @@
 
-git intit : Initialise a repository.
+git init : Initialise a repository.
 
 git add -A : Add file contents to the index.
 
