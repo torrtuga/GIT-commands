@@ -39,3 +39,5 @@ git checkout branchName : Switch branches or restore working tree files.
 
 git branch branchName : Makes a new branch
 
+Fork Adding to others : http://kbroman.org/github_tutorial/pages/fork.html
+
